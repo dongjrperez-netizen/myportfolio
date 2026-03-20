@@ -39,13 +39,13 @@
           </a>
           <a href="#contact" class="btn btn-ghost">Let's Talk</a>
         </div>
-
+<!-- 
         <div class="hero-stats fade-up" style="animation-delay:0.65s">
           <div v-for="stat in stats" :key="stat.label" class="stat">
             <span class="stat-num">{{ stat.num }}</span>
             <span class="stat-label">{{ stat.label }}</span>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <div class="hero-visual fade-up" style="animation-delay:0.3s">

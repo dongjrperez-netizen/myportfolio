@@ -4,8 +4,8 @@
       <div class="about-image-col" ref="imgRef">
         <div class="about-img-frame">
           <img
-            src="/image.jpg"
-            alt="Alex Rivera"
+            src="/protfolio.jpg"
+            alt="Roger Perez"
             class="about-img"
           />
           <div class="about-img-accent"></div>
@@ -60,7 +60,7 @@
 <script setup>
 const details = [
   { icon: '📍', label: 'Location', value: 'Davao City, Philippines' },
-  { icon: '📧', label: 'Email', value: 'alex@example.com' },
+  { icon: '📧', label: 'Email', value: 'rogerjrperez286@gmail.com' },
   { icon: '🎯', label: 'Availability', value: 'Open to opportunities' },
   { icon: '💼', label: 'Graduating', value: '2026' },
 ]
