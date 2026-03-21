@@ -17,7 +17,7 @@
         <h2 class="section-title">Turning ideas into<br /><span>digital reality</span></h2>
 
         <p class="about-bio">
-          I'm a Full Stack Developer based in Davao City, Philippines, with 5+ years of
+          I'm a Full Stack Developer based in Davao City, Philippines, with 4 months of
           experience building web applications that are fast, accessible, and delightful to use.
           I thrive at the intersection of design and engineering — I care deeply about how things
           look and how they work.
