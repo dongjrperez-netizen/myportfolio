@@ -3,7 +3,7 @@
     <div class="container nav-inner">
       <a href="#home" class="logo" @click="menuOpen = false">
         <span class="logo-bracket">&lt;</span>
-        AR
+        Roger C. Perez Jr.
         <span class="logo-bracket">/&gt;</span>
       </a>
 
@@ -50,7 +50,13 @@ const navItems = [
 ]
 
 const handleScroll = () => { isScrolled.value = window.scrollY > 30 }
-const downloadCV = () => alert('CV download would start here.')
+
+const downloadCV = () => {
+  const link = document.createElement('a')
+  link.href = '/myCV/My Resume roger.pdf'
+  link.download = 'Roger_Resume.pdf'
+  link.click()
+}
 
 onMounted(() => window.addEventListener('scroll', handleScroll, { passive: true }))
 onUnmounted(() => window.removeEventListener('scroll', handleScroll))

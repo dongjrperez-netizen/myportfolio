@@ -62,7 +62,7 @@ const details = [
   { icon: '📍', label: 'Location', value: 'Davao City, Philippines' },
   { icon: '📧', label: 'Email', value: 'rogerjrperez286@gmail.com' },
   { icon: '🎯', label: 'Availability', value: 'Open to opportunities' },
-  { icon: '💼', label: 'Graduating', value: '2026' },
+  { icon: '💼', label: 'Graduate', value: '2026' },
 ]
 
 const timeline = [

@@ -39,13 +39,7 @@
           </a>
           <a href="#contact" class="btn btn-ghost">Let's Talk</a>
         </div>
-<!-- 
-        <div class="hero-stats fade-up" style="animation-delay:0.65s">
-          <div v-for="stat in stats" :key="stat.label" class="stat">
-            <span class="stat-num">{{ stat.num }}</span>
-            <span class="stat-label">{{ stat.label }}</span>
-          </div>
-        </div> -->
+
       </div>
 
       <div class="hero-visual fade-up" style="animation-delay:0.3s">
@@ -164,8 +158,11 @@ onMounted(() => typeTitle())
 
 .hero-inner {
   display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 60px;
+  /* Match the column ratio of .about-inner */
+  grid-template-columns: 1fr 1.2fr; 
+  /* Match the gap of .about-inner */
+  gap: 80px; 
+  
   align-items: center;
   position: relative;
   z-index: 1;
